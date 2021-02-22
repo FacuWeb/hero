@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav {
+ background-color: black;
+ text-align: center;
+ height: 50px;
+}
+button {
+ margin: 10px auto;
+ padding: 5px;
+ color: black;
+ background-color: red;
+ border: 5px solid black;
+ border-radius: 10px;
+ font-size: 20px;
+ position: relative;
+ transition: .5s;
+ font-family: Sanfserif;
+ font-weight: bold;
+}
+button:hover {
+ font-size: 25px;
+ position: relative;
+ transition: .5s;
+}
+header {
+ margin: 0 auto;
+ text-align: center;
+ width: 300px;
+}
+h1 {
+ padding: 10px;
+ color: white;
+ background-color: black;
+ border-radius: 5px;
+}
+img {
+ margin: 0 auto; 
+ width: 100%;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Select your Hero</h1>
+</header>
+
+<nav>
+<button onclick="document.getElementById('unknown').src=''">Canario Negro</button>
+<button onclick="document.getElementById('unknown').src=''">Capitán Milagro</button>
+<button onclick="document.getElementById('unknown').src=''">Espíritu del 76</button>
+<button onclick="document.getElementById('unknown').src=''">Trueno</button>
+<button onclick="document.getElementById('unknown').src=''">Vigilante</button>
+<button onclick="document.getElementById('unknown').src=''">Patines</button>
+</nav>
+
+<img id="unknown" src="">
+
+</body>
+</html>
